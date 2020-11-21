@@ -1,0 +1,146 @@
+@import "./stylesheets/base.less";
+
+.editor {
+  .wrap-guide {
+    background: #252B39;
+  }
+
+  .indent-guide {
+    color: #38405B;
+  }
+
+  & {
+    background-color: #252B39;
+    color: #C3CEE3;
+  }
+
+  .gutter {
+    background-color: #252B39;
+    color: #5D758E;
+    box-shadow: 3px 0px 3px rgba(0,0,0,.5);
+  }
+
+  &.is-focused .cursor {
+    border-color: #F8F8F0;
+  }
+
+  &.is-focused .selection .region {
+    background-color: #080A0D;
+  }
+
+  &.is-focused .line-number.cursor-line-no-selection,
+  &.is-focused .line.cursor-line {
+    background-color: #384057;
+  }
+
+  .line-number {
+    color: #747C8E;
+  }
+
+  .comment {
+    color: #5A7BBE;
+  }
+
+  .string {
+    color: #D5D5CA;
+  }
+
+  .constant.numeric {
+    color: #EF8A8C;
+  }
+
+  .constant.language {
+    color: #EF8A8C;
+  }
+
+  .constant.character,
+  .constant.other {
+    color: #EF8A8C;
+    font-weight: bold;
+  }
+
+  .brace {
+    color: #C3CEE3;
+  }
+
+  .variable {
+  }
+
+  .keyword {
+    color: #9697DD;
+  }
+
+  .operator {
+    color: #FFF;
+  }
+
+  .storage {
+    color: #C299B6;
+  }
+
+  .storage.type {
+    font-style: italic;
+    color: #C2AFC5;
+  }
+
+  .entity.name.class {
+    color: #DFB5A5;
+  }
+
+  .entity.other.inherited-class {
+    color: #DFB5A5;
+  }
+
+  .entity.name.function {
+    color: #8BE9EE;
+  }
+
+  .variable.parameter {
+    font-style: italic;
+    color: #77D9C6;
+  }
+
+  .definition.tag.html {
+    color: #5767B0!important;
+  }
+
+  .name.tag.html {
+    color: #70AAFD!important;
+  }
+
+  .entity.name.tag {
+    color: #F92672;
+  }
+
+  .entity.other.attribute-name {
+    color: #7FD1FB;
+  }
+
+  .support.function {
+    color: #66D9EF;
+  }
+
+  .support.constant {
+    font-weight: bold;
+    color: #E59494;
+  }
+
+  .support.type,
+  .support.class {
+    color: #E3C78A;
+  }
+
+  .invalid {
+    color: #F8F8F0;
+    background-color: #F92672;
+  }
+
+  .invalid.deprecated {
+    color: #F8F8F0;
+    background-color: #AE81FF;
+  }
+
+  .regex {
+    color: #25C3CF;
+  }
+}

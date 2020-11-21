@@ -1,0 +1,263 @@
+@tab-border-size: 1px;
+@tab-border: @tab-border-size solid @tab-border-color;
+@tab-max-width: @ui-size*22;
+@tab-min-width: @ui-size*7; // icon + 5 characters
+@tab-padding: @ui-padding/1.5;
+@modified-icon-width: @ui-size;
+@ui-tab-height: 33px;
+
+.tab-bar {
+  height: @ui-tab-height;
+  box-shadow: inset 0 -1px 0 @tab-border-color;
+  background: @tab-bar-background-color;
+  overflow-x: auto;
+  overflow-y: hidden;
+  border-radius: 0;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  // Tab ----------------------
+
+  .tab {
+    position: relative;
+    top: 0;
+    max-width: @tab-max-width;
+    min-width: @tab-min-width;
+    height: @ui-tab-height;
+    font-size: inherit;
+    color: @tab-text-color;
+    line-height: @ui-tab-height;
+    padding: 0;
+    margin: 0;
+
+
+    // Background ----------------------
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: inherit;
+      border-radius: @component-border-radius @component-border-radius 0 0;
+      border: @tab-border;
+      border-bottom-color: @tab-background-color-active;
+      background-color: @tab-background-color-active;
+      background-image: linear-gradient( hsla(0,0%,100,.02), hsla(0,0%,100,0) );
+      background-clip: content-box;
+      box-shadow: inset 0 1px 1px hsla(0,0%,100,.06);
+      transition: opacity .16s;
+      opacity: 0;
+    }
+    &[data-type$="Editor"]::after {
+      background-color: @tab-background-color-editor;
+      border-bottom-color: @tab-background-color-editor;
+    }
+    &.active::after {
+      opacity: 1;
+      transition: none;
+    }
+
+
+    // Title ----------------------
+    .title {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      margin: 0 @tab-padding;
+      text-overflow: clip;
+      -webkit-mask: linear-gradient( to left, hsla(0,0%,0%,0), hsla(0,0%,0%,1) 1em) no-repeat;
+    }
+    &:hover .title {
+      -webkit-mask-position: -@modified-icon-width 0;
+    }
+    .close-icon {
+      top: .5em;
+      right: .35em;
+      z-index: 1;
+      color: @text-color-info;
+      font-weight: bold;
+      padding: 0 @tab-padding/2.85;
+      height: @ui-tab-height*.69;
+      line-height: @ui-tab-height*.69;
+      text-align: center;
+      vertical-align: middle;
+      transform: scale(0);
+      transition: transform .12s;
+      border-radius: 4px;
+      &:hover {
+        background-color: hsla(0,0%,100%,.05);
+        color: desaturate(#E26A6A,20%);
+        font-weight: bold;
+        opacity: .8;
+      }
+      &:active {
+        color: desaturate(#E26A6A,5%);
+        font-weight: bold;
+      }
+      &::before {
+        font-size: inherit;
+        font-weight: bold;
+      }
+    }
+    &:hover .close-icon {
+      transform: scale(1);
+      transition-duration: .12s;
+    }
+  }
+
+
+  // Tab sizing ----------------------
+
+  .tab,
+  .tab.active {
+    flex: 1;
+  }
+
+
+  // keep tabs same size when active ----------------------
+
+  .tab,
+  .tab.active {
+    padding-right: 0;
+    .title {
+      padding: 0;
+    }
+  }
+
+
+  // Active ----------------------
+
+  .tab.active {
+    color: @tab-text-color-active;
+    &[data-type$="Editor"] {
+      color: @tab-text-color-editor;
+    }
+  }
+
+  // Tab seperator ----------------------
+
+  .tab {
+    border-width: 0 0 0 1px;
+    border-image: linear-gradient(@tab-bar-background-color, @base-border-color 1em) 0 0 0 1 stretch;
+    &:first-child {
+      border-width: 0;
+    }
+  }
+  .tab.active,
+  .tab.active + .tab {
+    border-image: linear-gradient(transparent, transparent) 0 0 0 1 stretch;
+  }
+
+
+  // Modified ----------------------
+  .tab.modified {
+    .close-icon {
+      color: @text-color-info;
+      border: none;
+      border-bottom: @tab-border-size solid transparent;
+      &:hover {
+        background-color: hsla(0,0%,100%,.035);
+        color: desaturate(#E26A6A,20%);
+        font-weight: bold;
+        opacity: .8;
+      }
+      &:active {
+        color: desaturate(#E26A6A,5%);
+        font-weight: bold;
+      }
+    }
+    &:not(:hover) .close-icon {
+      right: 0;
+      top: 0;
+      width: initial;
+      height: @ui-tab-height;
+      line-height: @ui-tab-height;
+      border: none;
+      padding: 0 @tab-padding/1.5;
+      border-bottom: @tab-border-size solid transparent;
+      border-radius: 3px;
+      transform: scale(1);
+      &::before {
+        content: "\f052";
+        display: inline-block;
+      }
+    }
+  }
+
+
+  // Dragging ----------------------
+
+  .tab.is-dragging {
+    .close-icon,
+    &:before {
+      visibility: hidden;
+    }
+    &::after {
+      background: darken(@tab-background-color, 6%);
+      border-color: transparent;
+      opacity: .5;
+    }
+  }
+
+  .placeholder {
+    margin: 0;
+    height: @ui-tab-height;
+    background: @base-accent-color;
+    pointer-events: none;
+    &:after {
+      top: @ui-tab-height/2;
+      width: 10px;
+      height: 10px;
+      margin: -5px 0 0 0;
+      border-radius: 0;
+      border: 5px solid;
+      border-color: transparent transparent transparent @base-accent-color;
+      background: transparent;
+    }
+
+    &:last-child {
+      margin-left: -2px;
+
+      &:after {
+        margin-left: -10px;
+        border-color: transparent @base-accent-color transparent transparent;
+      }
+    }
+  }
+}
+
+
+// Active pane marker --------------
+
+.tab-bar .tab::before {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+  z-index: 1;
+  top: @tab-border-size;
+  left: @tab-border-size;
+  bottom: @tab-border-size;
+  width: 3px;
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+  border-top-left-radius: 3px !important;
+  border-bottom-left-radius: 1px !important;
+  background: @background-color-info;
+  opacity: 0;
+  transform: scaleY(0);
+  transition: opacity .01s, transform .19s cubic-bezier(.0, .6, .20, 1);
+
+  .theme-one-light-ui & {
+    left: 0;
+  }
+}
+
+atom-pane.active .tab.active:before {
+  opacity: 1;
+  transform: scaleY(1);
+  transition: opacity .01s, transform .32s cubic-bezier(0,.6,.2,1);
+}

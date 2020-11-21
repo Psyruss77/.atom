@@ -1,0 +1,26 @@
+"*":
+  Hydrogen:
+    globalMode: true
+    kernelNotifications: true
+    showInspectorResultsInAutocomplete: true
+  "atom-clock":
+    showTooltip: true
+  core:
+    telemetryConsent: "limited"
+    titleBar: "custom-inset"
+    uriHandlerRegistration: "always"
+    versionPinnedPackages: [
+      "b56945185908f8f3ad47ca7666bbb14dfe7d4f9c"
+    ]
+  editor: {}
+  "exception-reporting":
+    userId: "7e002d9d-a862-4c88-a5cf-49854eefa3f3"
+  github:
+    sourceRemoteName: "PsyrussTon"
+".breakpoints.hydrogen":
+  editor:
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true

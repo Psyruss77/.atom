@@ -1,0 +1,46 @@
+{
+  "_from": "https://www.atom.io/api/packages/dark-github-syntax/versions/2.1.0/tarball",
+  "_id": "Dark-github-syntax@2.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-iGPxBZLAcvT8SSKy6ku8qD2k+nOBsOP4aDL1Ci2Pq61DN9fdQbDLYzfA60Mk/ba57cZjPdyBwvk9pmgcFbXUeA==",
+  "_location": "/Dark-github-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/dark-github-syntax/versions/2.1.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/dark-github-syntax/versions/2.1.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/dark-github-syntax/versions/2.1.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/dark-github-syntax/versions/2.1.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/dark-github-syntax/versions/2.1.0/tarball",
+  "_shasum": "655d86d52af9b44d96641488f778f46bf8a451ed",
+  "_spec": "https://www.atom.io/api/packages/dark-github-syntax/versions/2.1.0/tarball",
+  "_where": "/private/var/folders/km/8xdpq5w9789ccyxwv95qjtw00000gp/T/apm-install-dir-20201017-22799-45w8n4.oni2w",
+  "bugs": {
+    "url": "https://github.com/edjroz/dark-github-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Inverted Github syntax, tries to replicate the colors from github in a dark scheme.",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/edjroz/dark-github-syntax#readme",
+  "keywords": [
+    "github",
+    "syntax",
+    "dark"
+  ],
+  "license": "MIT",
+  "name": "Dark-github-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edjroz/dark-github-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "2.1.0"
+}

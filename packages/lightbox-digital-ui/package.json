@@ -1,0 +1,46 @@
+{
+  "_from": "https://www.atom.io/api/packages/lightbox-digital-ui/versions/1.0.1/tarball",
+  "_id": "lightbox-digital-ui@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-Tv8POMTr48jNEkcjA7k9XiIJb8K56Hbau5pbIWe58KOhSArBYs11Qg0iAgQAcJzHsdUmiJUofP5zagUd8WEIpw==",
+  "_location": "/lightbox-digital-ui",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/lightbox-digital-ui/versions/1.0.1/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/lightbox-digital-ui/versions/1.0.1/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/lightbox-digital-ui/versions/1.0.1/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/lightbox-digital-ui/versions/1.0.1/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/lightbox-digital-ui/versions/1.0.1/tarball",
+  "_shasum": "494a9ada404818a229f2cb12c7b7fd7bb229ddcc",
+  "_spec": "https://www.atom.io/api/packages/lightbox-digital-ui/versions/1.0.1/tarball",
+  "_where": "/private/var/folders/km/8xdpq5w9789ccyxwv95qjtw00000gp/T/apm-install-dir-20201017-22773-1mfazox.fyh5",
+  "bugs": {
+    "url": "https://github.com/aarmstronglb/ui-lightbox-digital/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Atom theme UI for Lightbox Digital",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/aarmstronglb/ui-lightbox-digital#readme",
+  "keywords": [
+    "ui",
+    "theme",
+    "lightbox"
+  ],
+  "license": "MIT",
+  "name": "lightbox-digital-ui",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aarmstronglb/ui-lightbox-digital.git"
+  },
+  "theme": "ui",
+  "version": "1.0.1"
+}

@@ -1,0 +1,47 @@
+{
+  "_from": "https://www.atom.io/api/packages/github-2016-syntax/versions/1.2.0/tarball",
+  "_id": "github-2016-syntax@1.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-p8ZNgfTAViACiBpuyettWFFrKfTJfuz475nyOm5lBf9j96zRvEtPU4g7IuEoA5D8ug+7OSg6FXPd8l10UR/PEA==",
+  "_location": "/github-2016-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/github-2016-syntax/versions/1.2.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/github-2016-syntax/versions/1.2.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/github-2016-syntax/versions/1.2.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/github-2016-syntax/versions/1.2.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/github-2016-syntax/versions/1.2.0/tarball",
+  "_shasum": "9015ec543ec2d03e953e38f5d67556f2eba164aa",
+  "_spec": "https://www.atom.io/api/packages/github-2016-syntax/versions/1.2.0/tarball",
+  "_where": "/private/var/folders/km/8xdpq5w9789ccyxwv95qjtw00000gp/T/apm-install-dir-20201017-22760-1ior3w0.1m5x",
+  "bugs": {
+    "url": "https://github.com/mmcbride1007/github-2016-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "GitHub flavored syntax theme for Atom",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/mmcbride1007/github-2016-syntax#readme",
+  "keywords": [
+    "syntax",
+    "theme",
+    "github",
+    "light"
+  ],
+  "license": "MIT",
+  "name": "github-2016-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmcbride1007/github-2016-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "1.2.0"
+}

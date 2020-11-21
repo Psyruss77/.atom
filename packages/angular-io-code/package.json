@@ -1,0 +1,48 @@
+{
+  "_from": "https://www.atom.io/api/packages/angular-io-code/versions/0.0.4/tarball",
+  "_id": "angular-io-code@0.0.4",
+  "_inBundle": false,
+  "_integrity": "sha512-Oa12tapM2Npx2d1/AuzgtTrjvfFC4MoCbva3aCbwhITLr4aAr91iWIN1/JcgVjbANEaoQjwbphPTnuDXWKNUbg==",
+  "_location": "/angular-io-code",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/angular-io-code/versions/0.0.4/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/angular-io-code/versions/0.0.4/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/angular-io-code/versions/0.0.4/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/angular-io-code/versions/0.0.4/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/angular-io-code/versions/0.0.4/tarball",
+  "_shasum": "7cf0e2e593f2dac5d34700750062d0690c462a42",
+  "_spec": "https://www.atom.io/api/packages/angular-io-code/versions/0.0.4/tarball",
+  "_where": "/private/var/folders/km/8xdpq5w9789ccyxwv95qjtw00000gp/T/apm-install-dir-20201017-22509-1l5xw23.on4dj",
+  "bugs": {
+    "url": "https://github.com/Angular-io-Code/Angular-io-Code-Atom/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Angular.io inspired Color Theme.",
+  "displayName": "Angular-io-Code",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/Angular-io-Code/Angular-io-Code-Atom#readme",
+  "keywords": [
+    "syntax",
+    "theme",
+    "angular",
+    "Angular"
+  ],
+  "license": "MIT",
+  "name": "angular-io-code",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Angular-io-Code/Angular-io-Code-Atom.git"
+  },
+  "theme": "syntax",
+  "version": "0.0.4"
+}

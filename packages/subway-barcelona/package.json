@@ -1,0 +1,58 @@
+{
+  "_from": "https://www.atom.io/api/packages/subway-barcelona/versions/2.0.2/tarball",
+  "_id": "subway-barcelona@2.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-ip0+bO5OB+sSJ9wlLG+4lA2tyFcpddObkjLGq7O9+1fJpi78m9NC9K4zZyccw1dNRHuZxQlAn4WVdPFQxiLk7g==",
+  "_location": "/subway-barcelona",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/subway-barcelona/versions/2.0.2/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/subway-barcelona/versions/2.0.2/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/subway-barcelona/versions/2.0.2/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/subway-barcelona/versions/2.0.2/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/subway-barcelona/versions/2.0.2/tarball",
+  "_shasum": "bb9fd7dafaaac79a9585f946831f6982cb560bcf",
+  "_spec": "https://www.atom.io/api/packages/subway-barcelona/versions/2.0.2/tarball",
+  "_where": "/private/var/folders/km/8xdpq5w9789ccyxwv95qjtw00000gp/T/apm-install-dir-20201017-22650-1oc86yq.m7g2",
+  "author": {
+    "name": "Jan T. Sott",
+    "url": "http://github.com/idleberg"
+  },
+  "bugs": {
+    "url": "https://github.com/idleberg/atom-subway-barcelona/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Color scheme based on the Barcelona Metro subway map",
+  "devDependencies": {
+    "coffeelint-stylish": "^0.1.2",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-coffeelint": "^0.6.0",
+    "gulp-debug": "^3.0.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-jsonlint": "^1.2.0",
+    "gulp-lesshint": "^2.1.0",
+    "jshint": "^2.9.4"
+  },
+  "engines": {
+    "atom": ">=1.13.0 <2.0.0"
+  },
+  "homepage": "https://github.com/idleberg/atom-subway-barcelona#readme",
+  "license": "CC0-1.0",
+  "name": "subway-barcelona",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idleberg/atom-subway-barcelona.git"
+  },
+  "scripts": {
+    "test": "gulp lint"
+  },
+  "theme": "syntax",
+  "version": "2.0.2"
+}

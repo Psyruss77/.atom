@@ -1,0 +1,87 @@
+{
+  "_from": "https://www.atom.io/api/packages/one-dark-vertical-tabs-ui/versions/2.0.0/tarball",
+  "_id": "one-dark-vertical-tabs-ui@2.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-JdwJ6hEN7l86qX+qvgIto+dMZq/p26DAIucYEWyQg9u3DcyrIesZh0znh7ERvczi0vdBMhhZNZZfRtq+OexsAw==",
+  "_location": "/one-dark-vertical-tabs-ui",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/one-dark-vertical-tabs-ui/versions/2.0.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/one-dark-vertical-tabs-ui/versions/2.0.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/one-dark-vertical-tabs-ui/versions/2.0.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/one-dark-vertical-tabs-ui/versions/2.0.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/one-dark-vertical-tabs-ui/versions/2.0.0/tarball",
+  "_shasum": "1bfd3bbaff4d33f3d166220b6c9a557b40f80b45",
+  "_spec": "https://www.atom.io/api/packages/one-dark-vertical-tabs-ui/versions/2.0.0/tarball",
+  "_where": "/private/var/folders/km/8xdpq5w9789ccyxwv95qjtw00000gp/T/apm-install-dir-20201017-22849-1ixb5gf.prss",
+  "bugs": {
+    "url": "https://github.com/tiger4th/one-dark-vertical-tabs-ui/issues"
+  },
+  "bundleDependencies": false,
+  "configSchema": {
+    "fontSize": {
+      "title": "Font Size",
+      "description": "Change the UI font size. Needs to be between 8 and 20.",
+      "type": [
+        "integer",
+        "string"
+      ],
+      "minimum": 8,
+      "maximum": 20,
+      "default": "Auto"
+    },
+    "layoutMode": {
+      "title": "Layout Mode",
+      "description": "In Auto mode, the UI will automatically adapt based on the window size.",
+      "type": "string",
+      "default": "Auto",
+      "enum": [
+        "Compact",
+        "Auto",
+        "Spacious"
+      ]
+    },
+    "tabSizing": {
+      "title": "Tab Sizing",
+      "description": "In minimum width mode the tabs will be as small as possible but in even width mode, all tabs will be the same size. In auto mode the tabs switch based on the window size.",
+      "type": "string",
+      "default": "Auto",
+      "enum": [
+        "Even",
+        "Auto",
+        "Minimum"
+      ]
+    }
+  },
+  "deprecated": false,
+  "description": "Atom One dark Vertical Tabs UI theme",
+  "devDependencies": {
+    "coffeelint": "^1.9.7"
+  },
+  "engines": {
+    "atom": ">0.40.0"
+  },
+  "homepage": "https://github.com/tiger4th/one-dark-vertical-tabs-ui#readme",
+  "keywords": [
+    "dark",
+    "adaptive",
+    "ui",
+    "vertical",
+    "tab"
+  ],
+  "license": "MIT",
+  "main": "lib/main",
+  "name": "one-dark-vertical-tabs-ui",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiger4th/one-dark-vertical-tabs-ui.git"
+  },
+  "theme": "ui",
+  "version": "2.0.0"
+}

@@ -1,0 +1,46 @@
+{
+  "_from": "https://www.atom.io/api/packages/atom-editplus-syntax/versions/0.1.5/tarball",
+  "_id": "atom-editplus-syntax@0.1.5",
+  "_inBundle": false,
+  "_integrity": "sha512-JlUIaStteax/kth4OycyNDrTCP/paaYOFXajF769SK0AyVMwcRrWaacOcChX8f5XJ8Y3sfak6Cj3Br6q0AiWSw==",
+  "_location": "/atom-editplus-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/atom-editplus-syntax/versions/0.1.5/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/atom-editplus-syntax/versions/0.1.5/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/atom-editplus-syntax/versions/0.1.5/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/atom-editplus-syntax/versions/0.1.5/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/atom-editplus-syntax/versions/0.1.5/tarball",
+  "_shasum": "17934b37e70d6d3935d870597e2514c2e22bd980",
+  "_spec": "https://www.atom.io/api/packages/atom-editplus-syntax/versions/0.1.5/tarball",
+  "_where": "/private/var/folders/km/8xdpq5w9789ccyxwv95qjtw00000gp/T/apm-install-dir-20201017-22560-1nfniiv.zyv2",
+  "bugs": {
+    "url": "https://github.com/chrismerat/atom-editplus-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A basic copy of the default Editplus color scheme.",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/chrismerat/atom-editplus-syntax#readme",
+  "keywords": [
+    "syntax",
+    "theme",
+    "editplus"
+  ],
+  "license": "MIT",
+  "name": "atom-editplus-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrismerat/atom-editplus-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.1.5"
+}

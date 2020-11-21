@@ -1,0 +1,42 @@
+{
+  "_from": "https://www.atom.io/api/packages/gitmo/versions/0.5.0/tarball",
+  "_id": "gitmo@0.5.0",
+  "_inBundle": false,
+  "_integrity": "sha512-DGg7zHKa2Sh/M1PRQq0hpesQeRG+F33h7RAsEDkRT2yPR5tZLTQW6yRVGqKxTOPPbm7WnzxV7MfrKb0YaCVVew==",
+  "_location": "/gitmo",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/gitmo/versions/0.5.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/gitmo/versions/0.5.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/gitmo/versions/0.5.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/gitmo/versions/0.5.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/gitmo/versions/0.5.0/tarball",
+  "_shasum": "dca2b52d7d53556780052d6a34307324c04a0ca4",
+  "_spec": "https://www.atom.io/api/packages/gitmo/versions/0.5.0/tarball",
+  "_where": "/private/var/folders/km/8xdpq5w9789ccyxwv95qjtw00000gp/T/apm-install-dir-20201017-22586-rpqe3n.zpykj",
+  "bugs": {
+    "url": "https://github.com/bradley/gitmo-theme/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "💀",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/bradley/gitmo-theme#readme",
+  "license": "MIT",
+  "name": "gitmo",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradley/gitmo-theme.git"
+  },
+  "theme": "syntax",
+  "version": "0.5.0"
+}

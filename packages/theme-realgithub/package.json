@@ -1,0 +1,54 @@
+{
+  "_from": "https://www.atom.io/api/packages/theme-realgithub/versions/1.0.8/tarball",
+  "_id": "theme-realgithub@1.0.8",
+  "_inBundle": false,
+  "_integrity": "sha512-RErr60QNDsJINQi0ft77tgQ9ocIgyOkNVg23Iw+rs6uas2TQeJ6w6TSNgEVV1UB6Ivtx6dtOo8uM5f6MiTqg2Q==",
+  "_location": "/theme-realgithub",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/theme-realgithub/versions/1.0.8/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/theme-realgithub/versions/1.0.8/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/theme-realgithub/versions/1.0.8/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/theme-realgithub/versions/1.0.8/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/theme-realgithub/versions/1.0.8/tarball",
+  "_shasum": "c094ae2a8836be01a27ba067873a04e6c2171770",
+  "_spec": "https://www.atom.io/api/packages/theme-realgithub/versions/1.0.8/tarball",
+  "_where": "/private/var/folders/km/8xdpq5w9789ccyxwv95qjtw00000gp/T/apm-install-dir-20201017-22703-1xzde9i.62ny",
+  "bugs": {
+    "url": "https://github.com/RealGithub/RealGithub-Atom/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "The One And Only 100% Alike Github theme",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/RealGithub/RealGithub-Atom#readme",
+  "icon": "icon.png",
+  "keywords": [
+    "syntax",
+    "theme",
+    "github"
+  ],
+  "license": "GPL v3",
+  "name": "theme-realgithub",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RealGithub/RealGithub-Atom.git"
+  },
+  "scripts": {
+    "convert": "apm init --theme tmp --convert ./../RealGithub-VSCode/themes/RealGithub.tmTheme",
+    "move-new": "mv ./tmp/styles .",
+    "remove-old": "rm -f -R ./styles",
+    "remove-tmp": "rm -f -R ./tmp",
+    "theme": "npm run convert && npm run remove-old && npm run move-new && npm run remove-tmp"
+  },
+  "theme": "syntax",
+  "version": "1.0.8"
+}

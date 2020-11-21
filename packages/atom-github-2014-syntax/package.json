@@ -1,0 +1,46 @@
+{
+  "_from": "https://www.atom.io/api/packages/atom-github-2014-syntax/versions/1.6.0/tarball",
+  "_id": "atom-github-2014-syntax@1.6.0",
+  "_inBundle": false,
+  "_integrity": "sha512-z1xteaVp51kIVK7aGfT4MSPy4BqzK+fBWU8yEpvUK46dY5HRT3Fr0N5uVPltETmotN1Yx2k5TkRShAg0iQJj9Q==",
+  "_location": "/atom-github-2014-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/atom-github-2014-syntax/versions/1.6.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/atom-github-2014-syntax/versions/1.6.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/atom-github-2014-syntax/versions/1.6.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/atom-github-2014-syntax/versions/1.6.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/atom-github-2014-syntax/versions/1.6.0/tarball",
+  "_shasum": "06f393d94f914ea5ba5d7ab74d188f1560cebfed",
+  "_spec": "https://www.atom.io/api/packages/atom-github-2014-syntax/versions/1.6.0/tarball",
+  "_where": "/private/var/folders/km/8xdpq5w9789ccyxwv95qjtw00000gp/T/apm-install-dir-20201017-22690-miltiu.cempo",
+  "bugs": {
+    "url": "https://github.com/jacobbednarz/atom-github-2014-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "GitHub's 2014 syntax highlighter colours",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/jacobbednarz/atom-github-2014-syntax#readme",
+  "keywords": [
+    "github",
+    "syntax",
+    "light"
+  ],
+  "license": "MIT",
+  "name": "atom-github-2014-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacobbednarz/atom-github-2014-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "1.6.0"
+}

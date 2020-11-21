@@ -1,0 +1,77 @@
+{
+  "_from": "https://www.atom.io/api/packages/zentabs/versions/0.8.9/tarball",
+  "_id": "zentabs@0.8.9",
+  "_inBundle": false,
+  "_integrity": "sha512-jAkYYLeCGaSR72IJuIxnS9A6mAVRAU358jIHPpgaEaYFgZfj1IT6yt96MH8ut5OOdSW/j6S3nqpmh0acZoed6w==",
+  "_location": "/zentabs",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/zentabs/versions/0.8.9/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/zentabs/versions/0.8.9/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/zentabs/versions/0.8.9/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/zentabs/versions/0.8.9/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/zentabs/versions/0.8.9/tarball",
+  "_shasum": "1a1cd36cfa46e64588a92d1a9f155e3d3602d339",
+  "_spec": "https://www.atom.io/api/packages/zentabs/versions/0.8.9/tarball",
+  "_where": "/private/var/folders/km/8xdpq5w9789ccyxwv95qjtw00000gp/T/apm-install-dir-2020929-18127-1jky7bd.xcb8",
+  "bugs": {
+    "url": "https://github.com/ArnaudRinquin/atom-zentabs/issues"
+  },
+  "bundleDependencies": false,
+  "configSchema": {
+    "maximumOpenedTabs": {
+      "type": "integer",
+      "default": 5,
+      "minimum": 1,
+      "description": "The maximum number of tabs before we start removing old ones"
+    },
+    "manualMode": {
+      "type": "boolean",
+      "default": false,
+      "description": "If enabled, you will need to use a shortcut in order to trigger a tab cleanup."
+    },
+    "showPinnedIcon": {
+      "type": "boolean",
+      "default": true
+    },
+    "neverCloseUnsaved": {
+      "type": "boolean",
+      "default": false,
+      "description": "If enabled, we will avoid trying to close unsaved files"
+    },
+    "neverCloseNew": {
+      "type": "boolean",
+      "default": false,
+      "description": "If enabled, we will avoid trying to close files that are not yet added to the project repo"
+    },
+    "neverCloseDirty": {
+      "type": "boolean",
+      "default": false,
+      "description": "If enabled, we will avoid trying to close files that have not been committed to your repo"
+    }
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.3",
+    "underscore-plus": "1.x"
+  },
+  "deprecated": false,
+  "description": "Keep the opened tabs amount below specified limit",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/ArnaudRinquin/atom-zentabs#readme",
+  "license": "MIT",
+  "main": "./lib/zentabs",
+  "name": "zentabs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArnaudRinquin/atom-zentabs.git"
+  },
+  "version": "0.8.9"
+}

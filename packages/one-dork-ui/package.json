@@ -1,0 +1,40 @@
+{
+  "_from": "https://www.atom.io/api/packages/one-dork-ui/versions/2.6.0/tarball",
+  "_id": "one-dork-ui@2.6.0",
+  "_inBundle": false,
+  "_integrity": "sha512-Z1D+ZEYW4JO879TkG4HnbpI0h31YdKuGa03gtOORl2N+TUefkl+Nzixm+GP/DeXRnfrJIjIpDHUuxnN5J3/VKQ==",
+  "_location": "/one-dork-ui",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/one-dork-ui/versions/2.6.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/one-dork-ui/versions/2.6.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/one-dork-ui/versions/2.6.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/one-dork-ui/versions/2.6.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/one-dork-ui/versions/2.6.0/tarball",
+  "_shasum": "a051236f271099f1ff68d456688c990733cdc97c",
+  "_spec": "https://www.atom.io/api/packages/one-dork-ui/versions/2.6.0/tarball",
+  "_where": "/private/var/folders/km/8xdpq5w9789ccyxwv95qjtw00000gp/T/apm-install-dir-20201017-22611-3g68aq.meipb",
+  "bugs": {
+    "url": "https://github.com/dunovank/one-dork-ui/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "One Dork Fork of One Dark UI.",
+  "engines": {
+    "atom": ">0.99.0"
+  },
+  "homepage": "https://github.com/dunovank/one-dork-ui#readme",
+  "name": "one-dork-ui",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dunovank/one-dork-ui.git"
+  },
+  "theme": "ui",
+  "version": "2.6.0"
+}

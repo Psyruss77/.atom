@@ -1,0 +1,45 @@
+{
+  "_from": "https://www.atom.io/api/packages/mac-github-syntax/versions/1.3.9/tarball",
+  "_id": "mac-github-syntax@1.3.9",
+  "_inBundle": false,
+  "_integrity": "sha512-oBxAaEFAMn1R69EVNAQ01mH5s6+hWGw5kq3KiyhyEmbIJPUHrJxKstnKt6G6FbqHLmGHcK2dqZR/i2t6w4vEYA==",
+  "_location": "/mac-github-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/mac-github-syntax/versions/1.3.9/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/mac-github-syntax/versions/1.3.9/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/mac-github-syntax/versions/1.3.9/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/mac-github-syntax/versions/1.3.9/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/mac-github-syntax/versions/1.3.9/tarball",
+  "_shasum": "0a3a6a49436d91c0d77654a02049a206917f4fae",
+  "_spec": "https://www.atom.io/api/packages/mac-github-syntax/versions/1.3.9/tarball",
+  "_where": "/private/var/folders/km/8xdpq5w9789ccyxwv95qjtw00000gp/T/apm-install-dir-20201017-22883-jyfptx.y0c4",
+  "bugs": {
+    "url": "https://github.com/ahmadseleem/mac-github-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A nicer Light theme: quick MIX between atom-github-2014 & mac-classic themes.",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "homepage": "https://github.com/ahmadseleem/mac-github-syntax",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "license": "MIT",
+  "name": "mac-github-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmadseleem/mac-github-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "1.3.9"
+}

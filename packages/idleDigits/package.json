@@ -1,0 +1,45 @@
+{
+  "_from": "https://www.atom.io/api/packages/idledigits/versions/0.2.2/tarball",
+  "_id": "idleDigits@0.2.2",
+  "_inBundle": false,
+  "_integrity": "sha512-njAQWQCwhjve72uQ/YDCUI5QCnL1S6kCon5Y/198MPfxUTxFdWtXbOEeNj6L1/9aPvL/AWaSdQDlxHV6SF97TQ==",
+  "_location": "/idleDigits",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/idledigits/versions/0.2.2/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/idledigits/versions/0.2.2/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/idledigits/versions/0.2.2/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/idledigits/versions/0.2.2/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/idledigits/versions/0.2.2/tarball",
+  "_shasum": "e70228fa56950ef0236c55a2fc08c775e0450c58",
+  "_spec": "https://www.atom.io/api/packages/idledigits/versions/0.2.2/tarball",
+  "_where": "/private/var/folders/km/8xdpq5w9789ccyxwv95qjtw00000gp/T/apm-install-dir-20201017-22731-2smkho.fdmyv",
+  "bugs": {
+    "url": "https://github.com/allanjamesvestal/atom-idleDigits/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A color scheme inspired by the idleFingers TextMate theme.",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/allanjamesvestal/atom-idleDigits#readme",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "license": "MIT",
+  "name": "idleDigits",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allanjamesvestal/atom-idleDigits.git"
+  },
+  "theme": "syntax",
+  "version": "0.2.2"
+}

@@ -1,0 +1,46 @@
+{
+  "_from": "https://www.atom.io/api/packages/better-one-dark-comments-syntax/versions/1.1.0/tarball",
+  "_id": "better-one-dark-comments-syntax@1.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-SGI/HldvE02sNx8Vg6miyuPWPwX0LG0ziOuQKQWr4vXd/wMriVVLOZpCEYPCv8OUVrpkpCqw2PjxiwKSCdfRQA==",
+  "_location": "/better-one-dark-comments-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/better-one-dark-comments-syntax/versions/1.1.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/better-one-dark-comments-syntax/versions/1.1.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/better-one-dark-comments-syntax/versions/1.1.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/better-one-dark-comments-syntax/versions/1.1.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/better-one-dark-comments-syntax/versions/1.1.0/tarball",
+  "_shasum": "fc0505350eaa292a769597be59e313eb12196d07",
+  "_spec": "https://www.atom.io/api/packages/better-one-dark-comments-syntax/versions/1.1.0/tarball",
+  "_where": "/private/var/folders/km/8xdpq5w9789ccyxwv95qjtw00000gp/T/apm-install-dir-20201017-22574-14bjebv.td5t",
+  "bugs": {
+    "url": "https://github.com/dszopa/better-one-dark-comments-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A clone of the One Dark syntax theme with the color for comments made more readable.",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/dszopa/better-one-dark-comments-syntax#readme",
+  "keywords": [
+    "comments",
+    "syntax",
+    "theme"
+  ],
+  "license": "MIT",
+  "name": "better-one-dark-comments-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dszopa/better-one-dark-comments-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "1.1.0"
+}

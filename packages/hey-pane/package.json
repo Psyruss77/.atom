@@ -1,0 +1,49 @@
+{
+  "_from": "https://www.atom.io/api/packages/hey-pane/versions/1.2.0/tarball",
+  "_id": "hey-pane@1.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-RYFFHxaBU7Q05C77wbKEu6nQ1UFhxq9zOm+8TpCI3eKso0mTf4x+MNrQfe8BLmankbT18GFe3R1E3lSHO7Qqcg==",
+  "_location": "/hey-pane",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/hey-pane/versions/1.2.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/hey-pane/versions/1.2.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/hey-pane/versions/1.2.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/hey-pane/versions/1.2.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/hey-pane/versions/1.2.0/tarball",
+  "_shasum": "819ce0db10a2f4ab80f90144a496d664ab7f2748",
+  "_spec": "https://www.atom.io/api/packages/hey-pane/versions/1.2.0/tarball",
+  "_where": "/private/var/folders/km/8xdpq5w9789ccyxwv95qjtw00000gp/T/apm-install-dir-2020929-18061-18gkajr.i9qxg",
+  "bugs": {
+    "url": "https://github.com/timomeh/hey-pane/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Atom Plugin to enlarge the active pane, either with a shortcut or with a super handy follow mode. Inspired by Origami for Sublime Text.",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/timomeh/hey-pane#readme",
+  "keywords": [
+    "pane",
+    "focus",
+    "origami",
+    "zoom",
+    "autozoom"
+  ],
+  "license": "MIT",
+  "main": "./lib/hey-pane",
+  "name": "hey-pane",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timomeh/hey-pane.git"
+  },
+  "version": "1.2.0"
+}

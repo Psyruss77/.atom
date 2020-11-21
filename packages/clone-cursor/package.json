@@ -1,0 +1,44 @@
+{
+  "_from": "https://www.atom.io/api/packages/clone-cursor/versions/1.1.2/tarball",
+  "_id": "clone-cursor@1.1.2",
+  "_inBundle": false,
+  "_integrity": "sha512-JYkYLFJTX4DEIEi9hSDA6+XVsUnK8xqNN6BhUKyFmhPsrYjggXrtWXn0yuCqzchSeHCsMSMudMYqK4jOjK2R0w==",
+  "_location": "/clone-cursor",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/clone-cursor/versions/1.1.2/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/clone-cursor/versions/1.1.2/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/clone-cursor/versions/1.1.2/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/clone-cursor/versions/1.1.2/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/clone-cursor/versions/1.1.2/tarball",
+  "_shasum": "6797e29285c88f015877292952e8212097017739",
+  "_spec": "https://www.atom.io/api/packages/clone-cursor/versions/1.1.2/tarball",
+  "_where": "/private/var/folders/km/8xdpq5w9789ccyxwv95qjtw00000gp/T/apm-install-dir-20201017-22468-14jomv5.4wxn",
+  "activationCommands": {},
+  "bugs": {
+    "url": "https://github.com/thislooksfun/clone-cursor/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Allows you to use the keyboard to clone your cursor",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/thislooksfun/clone-cursor#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "./lib/clone-cursor",
+  "name": "clone-cursor",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thislooksfun/clone-cursor.git"
+  },
+  "version": "1.1.2"
+}

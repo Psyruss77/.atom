@@ -1,0 +1,45 @@
+{
+  "_from": "https://www.atom.io/api/packages/seoul256/versions/0.4.0/tarball",
+  "_id": "seoul256@0.4.0",
+  "_inBundle": false,
+  "_integrity": "sha512-5VoV3gH5sPWDJzbOXKWfkIBd4LHducjNuq4XuuPWqcv6M3B/DDA9ttjkkhvT1sF8/Zv5wGm7BzJm9eYJKye73g==",
+  "_location": "/seoul256",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/seoul256/versions/0.4.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/seoul256/versions/0.4.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/seoul256/versions/0.4.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/seoul256/versions/0.4.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/seoul256/versions/0.4.0/tarball",
+  "_shasum": "2466bfb9817552c1714867cd97559d6e3d492419",
+  "_spec": "https://www.atom.io/api/packages/seoul256/versions/0.4.0/tarball",
+  "_where": "/private/var/folders/km/8xdpq5w9789ccyxwv95qjtw00000gp/T/apm-install-dir-20201017-22638-1vjekuy.42li",
+  "bugs": {
+    "url": "https://github.com/huntergoldstein/seoul256/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Rough clone of https://github.com/junegunn/seoul256.vim for Atom",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/huntergoldstein/seoul256#readme",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "license": "MIT",
+  "name": "seoul256",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huntergoldstein/seoul256.git"
+  },
+  "theme": "syntax",
+  "version": "0.4.0"
+}

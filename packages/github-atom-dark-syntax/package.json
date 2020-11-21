@@ -1,0 +1,68 @@
+{
+  "_from": "https://www.atom.io/api/packages/github-atom-dark-syntax/versions/0.5.0/tarball",
+  "_id": "github-atom-dark-syntax@0.5.0",
+  "_inBundle": false,
+  "_integrity": "sha512-jXeKRXAV58WrymK79BELdspu09x5Y4Sb5gY5PBsqE/t/+UuM0RawhfjOdqn5LcRU7CXOGpIIQD6LHvBgaYXIYw==",
+  "_location": "/github-atom-dark-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/github-atom-dark-syntax/versions/0.5.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/github-atom-dark-syntax/versions/0.5.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/github-atom-dark-syntax/versions/0.5.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/github-atom-dark-syntax/versions/0.5.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/github-atom-dark-syntax/versions/0.5.0/tarball",
+  "_shasum": "91b04d51c7f14d8de55c476b0cb835e6fd4d8979",
+  "_spec": "https://www.atom.io/api/packages/github-atom-dark-syntax/versions/0.5.0/tarball",
+  "_where": "/private/var/folders/km/8xdpq5w9789ccyxwv95qjtw00000gp/T/apm-install-dir-20201017-22677-c1mblj.xixjf",
+  "author": {
+    "name": "GitHub Inc."
+  },
+  "bugs": {
+    "url": "https://github.com/primer/github-syntax-theme-generator/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "GitHub's official dark syntax theme as an atom theme",
+  "devDependencies": {
+    "github-syntax-theme-generator": "*"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "files": [
+    "index.less",
+    "styles"
+  ],
+  "homepage": "https://github.com/primer/github-atom-dark-syntax#readme",
+  "keywords": [
+    "github",
+    "syntax",
+    "css",
+    "theme",
+    "highlight",
+    "code",
+    "dark"
+  ],
+  "license": "MIT",
+  "name": "github-atom-dark-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/primer/github-atom-dark-syntax.git"
+  },
+  "scripts": {
+    "_commit": "git commit -am \"$(npm view github-syntax-theme-generator version)\"",
+    "_update": "npm update && cp -rf node_modules/github-syntax-theme-generator/build/atom/github-dark/*.less ./styles/",
+    "_version": "apm publish $(npm view github-syntax-theme-generator version)",
+    "ship": "npm run _update && npm run _commit && npm run _version",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "style": "index.less",
+  "theme": "syntax",
+  "version": "0.5.0"
+}

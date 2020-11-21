@@ -1,0 +1,47 @@
+{
+  "_from": "https://www.atom.io/api/packages/textmate-github-syntax/versions/0.1.0/tarball",
+  "_id": "textmate-github-syntax@0.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-IxQVHiIy0cz9xkP9fWf7ZhRA+33vu5jiGvqnWrcjhPRMJOkjfK4CwfwLuBLU1O1HjCZWUvDoH3r+LzOuI8PbbA==",
+  "_location": "/textmate-github-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/textmate-github-syntax/versions/0.1.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/textmate-github-syntax/versions/0.1.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/textmate-github-syntax/versions/0.1.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/textmate-github-syntax/versions/0.1.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/textmate-github-syntax/versions/0.1.0/tarball",
+  "_shasum": "7fe11af61e9d652a0f7ae0dfa407bb0b1385355e",
+  "_spec": "https://www.atom.io/api/packages/textmate-github-syntax/versions/0.1.0/tarball",
+  "_where": "/private/var/folders/km/8xdpq5w9789ccyxwv95qjtw00000gp/T/apm-install-dir-20201017-22811-y0e9zg.f4a5",
+  "bugs": {
+    "url": "https://github.com/phthhieu/textmate-github-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Textmate github theme for Atom",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/phthhieu/textmate-github-syntax#readme",
+  "keywords": [
+    "syntax",
+    "theme",
+    "textmate",
+    "github"
+  ],
+  "license": "MIT",
+  "name": "textmate-github-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phthhieu/textmate-github-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.1.0"
+}

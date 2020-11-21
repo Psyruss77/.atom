@@ -1,0 +1,42 @@
+{
+  "_from": "https://www.atom.io/api/packages/github-web/versions/1.1.0/tarball",
+  "_id": "github-web@1.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-bU9z09pEcve4tdOompuDsOP9HIaCpV4a0jUI3fYHsIU8MJpJRMGPgQOxk1l+3qKNALtNWRQS/gxJA7T5LB8TNw==",
+  "_location": "/github-web",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/github-web/versions/1.1.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/github-web/versions/1.1.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/github-web/versions/1.1.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/github-web/versions/1.1.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/github-web/versions/1.1.0/tarball",
+  "_shasum": "6664e79d10211d29c171806b7103ec49e77dda3b",
+  "_spec": "https://www.atom.io/api/packages/github-web/versions/1.1.0/tarball",
+  "_where": "/private/var/folders/km/8xdpq5w9789ccyxwv95qjtw00000gp/T/apm-install-dir-20201017-22599-1vtyi9f.l77r",
+  "bugs": {
+    "url": "https://github.com/JonMidhir/github-web/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "GitHub website style syntax theme.",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/JonMidhir/github-web#readme",
+  "license": "MIT",
+  "name": "github-web",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonMidhir/github-web.git"
+  },
+  "theme": "syntax",
+  "version": "1.1.0"
+}

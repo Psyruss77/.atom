@@ -1,0 +1,41 @@
+{
+  "_from": "https://www.atom.io/api/packages/inspired-github/versions/0.10.0/tarball",
+  "_id": "inspired-github@0.10.0",
+  "_inBundle": false,
+  "_integrity": "sha512-T18c+2mrYKy1bqQXqcpxOjNDwBlAWvyFgl4C+5diHWvcLdOcDfS1pIChNKnISE5XH+jhtyGmB/uBxxVAFXmFJA==",
+  "_location": "/inspired-github",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/inspired-github/versions/0.10.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/inspired-github/versions/0.10.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/inspired-github/versions/0.10.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/inspired-github/versions/0.10.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/inspired-github/versions/0.10.0/tarball",
+  "_shasum": "020dd1b596a9e4cf4cbd969ab6e262a58d595763",
+  "_spec": "https://www.atom.io/api/packages/inspired-github/versions/0.10.0/tarball",
+  "_where": "/private/var/folders/km/8xdpq5w9789ccyxwv95qjtw00000gp/T/apm-install-dir-20201017-22719-6mfiqq.yyevg",
+  "bugs": {
+    "url": "https://github.com/smlombardi/inspired-github/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Syntax for Atom text editor inspired by the Sublime Text theme",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "homepage": "https://github.com/smlombardi/inspired-github#readme",
+  "license": "MIT",
+  "name": "inspired-github",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smlombardi/inspired-github.git"
+  },
+  "theme": "syntax",
+  "version": "0.10.0"
+}

@@ -1,0 +1,43 @@
+@tab-width: 14em;
+
+atom-pane-container {
+  atom-pane {
+    -webkit-flex-direction: row;
+  }
+}
+
+.tab-bar {
+  width: @tab-width;
+  max-width: @tab-width;
+  min-width: @tab-width;
+  height: auto;
+  padding: 0;
+  -webkit-flex-direction: column;
+
+  .tab {
+    top: 0;
+    width: 100%;
+    height: auto;
+    -webkit-flex: 0 0 auto;
+
+    &.active {
+      width: 100%;
+      -webkit-flex: 0 0 auto;
+    }
+
+    .title {
+      text-align: left;
+    }
+  }
+
+  .placeholder {
+    position: relative;
+    width: auto;
+    height: 1px;
+    margin: 0;
+
+    &:after {
+      display: none;
+    }
+  }
+}

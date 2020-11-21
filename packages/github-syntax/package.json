@@ -1,0 +1,41 @@
+{
+  "_from": "https://www.atom.io/api/packages/github-syntax/versions/0.2.0/tarball",
+  "_id": "github-syntax@0.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-U+h8bVmWJJq5w1AGP8w9/TLJeJ8etO5byAeo9JFbnsZhHID1u/vOZrXB9edNgHpFedakFg/JKCza5BoQ2Oqmhw==",
+  "_location": "/github-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/github-syntax/versions/0.2.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/github-syntax/versions/0.2.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/github-syntax/versions/0.2.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/github-syntax/versions/0.2.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/github-syntax/versions/0.2.0/tarball",
+  "_shasum": "8951531cfd5379a39e4dd0db0b78065ec4a98437",
+  "_spec": "https://www.atom.io/api/packages/github-syntax/versions/0.2.0/tarball",
+  "_where": "/private/var/folders/km/8xdpq5w9789ccyxwv95qjtw00000gp/T/apm-install-dir-20201017-22625-l2me2.sp833e",
+  "bugs": {
+    "url": "https://github.com/orderedlist/github-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "An Atom syntax theme matching GitHub highlighting",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/orderedlist/github-syntax#readme",
+  "license": "MIT",
+  "name": "github-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orderedlist/github-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.2.0"
+}

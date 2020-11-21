@@ -1,0 +1,42 @@
+{
+  "_from": "https://www.atom.io/api/packages/boneyfied/versions/0.1.0/tarball",
+  "_id": "boneyfied@0.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-zNZbM1i4+Dnifyfga4jEMAjINhunnZamO3z/Jvlr32jTMcuePGF9rSjMCEjg/+Qjfa/rQwdoVMlj3ESKoTHLyg==",
+  "_location": "/boneyfied",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/boneyfied/versions/0.1.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/boneyfied/versions/0.1.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/boneyfied/versions/0.1.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/boneyfied/versions/0.1.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/boneyfied/versions/0.1.0/tarball",
+  "_shasum": "2b8dd0ea6d7d2b87080e57adf45c392ed3bf8291",
+  "_spec": "https://www.atom.io/api/packages/boneyfied/versions/0.1.0/tarball",
+  "_where": "/private/var/folders/km/8xdpq5w9789ccyxwv95qjtw00000gp/T/apm-install-dir-20201017-22825-lmd6os.qtyc",
+  "bugs": {
+    "url": "https://github.com/weblancaster/atom-boneyfied-theme/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A Boneyfied theme",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/weblancaster/atom-boneyfied-theme#readme",
+  "license": "MIT",
+  "name": "boneyfied",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weblancaster/atom-boneyfied-theme.git"
+  },
+  "theme": "syntax",
+  "version": "0.1.0"
+}

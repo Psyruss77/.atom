@@ -1,0 +1,48 @@
+{
+  "_from": "https://www.atom.io/api/packages/git-clone/versions/0.2.0/tarball",
+  "_id": "git-clone@0.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-U2J6o07A+Foc4QqqGBjRJmsWaNyhJKTOhv4+9q7XKT5htwvdm6FH4PJImColy7JNE7cqnPbHQT/Bs9edfMLVrA==",
+  "_location": "/git-clone",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/git-clone/versions/0.2.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/git-clone/versions/0.2.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/git-clone/versions/0.2.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/git-clone/versions/0.2.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/git-clone/versions/0.2.0/tarball",
+  "_shasum": "a3026360a36d8285db8a305cbb05396acda3b1e1",
+  "_spec": "https://www.atom.io/api/packages/git-clone/versions/0.2.0/tarball",
+  "_where": "/private/var/folders/km/8xdpq5w9789ccyxwv95qjtw00000gp/T/apm-install-dir-20201017-21837-42c0rw.tt6li",
+  "activationCommands": {
+    "atom-workspace": "git-clone:clone"
+  },
+  "bugs": {
+    "url": "https://github.com/brianchung808/git-clone/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.0",
+    "space-pen": "^5.0.1"
+  },
+  "deprecated": false,
+  "description": "Quickly git clone a repo and open in a new atom window",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/brianchung808/git-clone#readme",
+  "license": "MIT",
+  "main": "./lib/git-clone",
+  "name": "git-clone",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianchung808/git-clone.git"
+  },
+  "version": "0.2.0"
+}
